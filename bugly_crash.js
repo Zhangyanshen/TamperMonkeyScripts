@@ -90,7 +90,6 @@ function hiddenCrashRateDiv() {
     GM_log('【Jensen】bugly崩溃率计算脚本启动')
 
     const originFetch = fetch
-    // console.log(originFetch)
     window.unsafeWindow.fetch = (url, options) => {
         return originFetch(url, options).then(async (response) => {
             if (url.includes('https://bugly.qq.com/v4/api/old/get-crash-trend?appId=')) {
