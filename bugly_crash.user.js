@@ -7,6 +7,7 @@
 // @match        https://bugly.qq.com/v2/crash-reporting/dashboard/*
 // @exclude      https://bugly.qq.com/v2/crash-reporting/advanced-search/*
 // @icon         https://bugly.qq.com/v2/image?id=2c06cba9-7d27-4f1c-8b0d-b932c33deaf3
+// @homepageURL  https://github.com/Zhangyanshen/TamperMonkeyScripts
 // @grant        unsafeWindow
 // @grant        GM_addStyle
 // @grant        GM_log
